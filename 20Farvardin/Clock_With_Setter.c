@@ -43,11 +43,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-	int m,i,k,h,s,d,y;
+	int m, i, h;
 	char tm[8], th[8], ts[8];
-	unsigned char bts[10] = {0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};
-	unsigned char help[4] = {0x76, 0x79, 0x38, 0x00};
-	unsigned char port[4] = {0x0B, 0x0A};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
